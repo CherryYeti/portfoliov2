@@ -19,12 +19,11 @@ img {
     position: relative;
     margin-bottom: 5px;
 }
-.projectTitle::after{
+.projectTitle::before{
     content:"";
     width: 30%;
     height: 2px;
     background-color: #ce0e67;
     position: absolute;
-    bottom: -4px;
     left: 0px;
 }

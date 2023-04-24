@@ -13,7 +13,7 @@ function Projects() {
                 />
                 <Card 
                     img="snippet.png"
-                    name='This Portfilio'
+                    name='This Portfolio'
                     description='This portfolio was created entirely from scratch in react in a few days.'
                 />
                 <Card 
