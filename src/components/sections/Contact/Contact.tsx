@@ -52,7 +52,7 @@ function Contact() {
       console.log(error);
       setMessage({
         success: false,
-        text: "There was a problem submitting the form!",
+        text: "There was a problem submitting the form! Please make sure you check the Captcha before clicking submit.",
       });
     }
   };
@@ -84,6 +84,7 @@ function Contact() {
             type="text"
             id="name"
             value={formState.name}
+            placeholder="Please enter your name here..."
           />
           <label htmlFor="email">Email</label>
           <input
@@ -91,6 +92,7 @@ function Contact() {
             type="text"
             id="email"
             value={formState.email}
+            placeholder="Please enter your email here..."
           />
           <label htmlFor="message">Message</label>
           <textarea
@@ -98,6 +100,7 @@ function Contact() {
             id="message"
             onChange={updateFormControl}
             value={formState.message}
+            placeholder="What do you want to talk about?"
           />
           <ReCAPTCHA ref={recaptchaRef} sitekey={recaptchaKey} onChange={updateRecaptchaToken} />
           <button disabled={submitting} className="submitButton">
