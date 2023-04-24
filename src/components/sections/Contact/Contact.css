@@ -1,0 +1,52 @@
+.contact{
+    margin-left: 10%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+.submitButton{
+    margin-top: 50px;
+    width: 50%;
+    color:white;
+    background-color: #0000004d;
+    border: 0;
+    border-radius: 12px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    margin-left: 25%;
+    border: 1px solid #ce0e67;
+    cursor: pointer;
+}
+.submitButton:hover{
+    background-color: #860742
+}
+label{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+input,
+textarea {
+    background-color: #0000004d;
+    border: 1px solid #ce0e67;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom:10px;
+}
+.success,
+.fail {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
+.fail {
+    background-color: #ce0e67;
+}
+.success{
+    background-color: #02be1e;
+}

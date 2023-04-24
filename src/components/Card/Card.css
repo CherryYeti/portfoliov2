@@ -1,0 +1,30 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: #0000004d;
+}
+img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.text{
+    padding: 20px;
+}
+
+
+.projectTitle {
+    text-decoration: none;
+    color: #ce0e67;
+    position: relative;
+    margin-bottom: 5px;
+}
+.projectTitle::after{
+    content:"";
+    width: 30%;
+    height: 2px;
+    background-color: #ce0e67;
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
